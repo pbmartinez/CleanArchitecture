@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapi:
+    image: clean_architecture_webapi
+    build:
+      context: .
+      dockerfile: WebApi/Dockerfile
